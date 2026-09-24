@@ -38,9 +38,9 @@
   <div class="wrap nav-in">
     <a href="index.html" class="logo" aria-label="APEX FC — home">PYRAMID<sup>®</sup></a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="shop.html">SHOP</a>
-      <a href="club.html">CLUB JERSEYS</a>
-      <a href="philosophy.html">WHY US</a>
+      <a href="#shop">SHOP</a>
+      <a href="#drop">CLUB JERSEYS</a>
+      <a href="#philosophy">WHY US</a>
     </nav>
     <div class="nav-actions">
       <button class="icon-btn" id="menuBtn" aria-label="Menu"><i data-lucide="menu"></i></button>
@@ -51,9 +51,9 @@
     </div>
   </div>
   <div id="mobileMenu">
-    <a href="shop.html">SHOP</a>
-    <a href="club.html">CLUB JERSEYS</a>
-    <a href="philosophy.html">WHY US</a>
+    <a href="#shop">SHOP</a>
+    <a href="#drop">CLUB JERSEYS</a>
+    <a href="#philosophy">WHY US</a>
     <a class="tg-link" href="#" target="_blank" rel="noopener">TELEGRAM — FAST REPLY</a>
   </div>
 </header>
@@ -129,7 +129,7 @@
   <div class="wrap drop-grid">
     <div data-reveal>
       <p class="eyebrow on-dark"><span class="dot"></span>LIMITED RELEASE</p>
-      <h2 class="drop-title">JACKET<br><span class="n04">— 26/27</span></h2>
+      <h2 class="drop-title">EGYPT<br><span class="n04">— NATIONAL TEAM</span></h2>
       <p class="drop-copy">A limited run of 300 shirts. Moisture-mapped AeroPoly knit, stitched crest, heat-pressed numbers — the same spec the squad wears on the road. When they're gone, they're gone.</p>
       <div class="countdown" aria-label="Countdown to next drop">
         <div class="cd-cell"><div class="cd-num" id="cdD">00</div><div class="cd-lbl">DAYS</div></div>
@@ -148,7 +148,7 @@
     </div>
     <div class="drop-visual" data-reveal>
       <div class="drop-img">
-        <img src="img/sfc_jacket1.JPG" alt="Away kit 25/26 on the tunnel steps">
+        <img src="img/egypt-national-team.jpg" alt="Away kit 25/26 on the tunnel steps">
       </div>
       <div class="stamp">LIMITED<br>300 SHIRTS</div>
     </div>
@@ -162,7 +162,7 @@
       <div class="phil-left" data-reveal>
         <p class="eyebrow"><span class="dot"></span>WHY US</p>
         <h2 class="sec-title" style="margin-top:16px">MADE FOR<br>THE<br><em class="outline">PITCH.</em></h2>
-        <p>PYRAMID started as a Sport Store under SHADA FC that we made our own — and now we sell it the same way we'd want to buy it: fast, human and honest.</p>
+        <p>PYRAMID started as a Sport Store under SHADA FC — we sell it the same way we'd want to buy it: fast, human and honest.</p>
       </div>
       <div>
         <div class="pitem" data-reveal>
@@ -666,17 +666,57 @@ const PRODUCTS = [
     sizes:['1psc','2psc'],
     tag:'RESTOCKED',
     featured:false,
-    desc:'Professional Forza brand speed and agility training ladder - most uses within big club' },
+    desc:'Professional Nike brand bag good usage with free space' },
 
-  { id:'p28',
-    name:'Nike Academy Bag',
+  { id:'p29',
+    name:'Adidas Academy Bag',
     cat:'Equipment',
     price:69,
-    img:'img/nike-academy-bag.jpg',
+    img:'img/adidas-bag.jpg',
     sizes:['1psc','2psc'],
     tag:'RESTOCKED',
     featured:false,
-    desc:'Professional Forza brand speed and agility training ladder - most uses within big club' },
+    desc:'Professional Adidas bag uses in sportwear with big space' },
+
+  { id:'p30',
+    name:'Barcelona Home Jersey 25/26 Man',
+    cat:'Jerseys',
+    price:169,
+    img:'img/baraca-25-26-man.jpg',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Barcelona Home Jersey Season 2025/2026 Player grade' },
+
+  { id:'p31',
+    name:'Barcelona Away Jersey 25/26 Man',
+    cat:'Jerseys',
+    price:153,
+    img:'img/barca-away.jpg',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Barcelona Away Jersey Season 2025/2026 Player grade' },
+
+  { id:'p32',
+    name:'Inter Miami Home Jersey',
+    cat:'Jerseys',
+    price:129,
+    img:'img/pink-miami.jpg',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'INSTOCKED',
+    featured:false,
+    desc:'inter Miamia Jersey Season 2025/2026 Player grade' },
+
+  { id:'p32',
+    name:'Egypt National Team',
+    cat:'Jerseys',
+    price:149,
+    img:'img/egypt-national-team.jpg',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'INSTOCKED',
+    featured:false,
+    desc:'Egypt National team Player grade' },
 ];
 
 /* ============================================================
