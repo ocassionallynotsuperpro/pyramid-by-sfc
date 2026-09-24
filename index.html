@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+  ============================================================
+  APEX FC — FOOTBALL STORE  (one file: HTML + CSS + JavaScript)
+
+  WHERE TO EDIT (press Ctrl+F and search):
+   1. Products / photos / prices  ->  search:  YOUR PRODUCTS
+   2. Currency, shipping cost     ->  search:  STORE SETTINGS
+   3. Your Telegram (orders)      ->  search:  TELEGRAM
+   4. Colors and fonts            ->  search:  :root
+  ============================================================
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#141412">
+<meta name="description" content="APEX FC — football store. Kits, boots and gear. Order in seconds via Telegram.">
+<title>PYRAMID — Store By Shada FC· The Best store around the World</title>
+<link rel="icon" href="img/pyramid_logo.JPG">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<!-- ============ TOP BAR MARQUEE ============ -->
+<div class="topbar" aria-hidden="true">
+  <div class="mtrack">
+    <div class="mseg"><span>PYRAMID — Store By Shada FC· The Best store around the World</span><span>//</span><span>FREE SHIPPING ON ORDERS OVER $120</span><span>//</span><span>ORDERS GO STRAIGHT TO OUR TELEGRAM — REPLY IN MINUTES &amp; BALLS IN STOCK</span><span>//</span><span>WORLDWIDE DELIVERY</span><span>//</span></div>
+    <div class="mseg"><span>PYRAMID — Store By Shada FC· The Best store around the World</span><span>//</span><span>FREE SHIPPING ON ORDERS OVER $120</span><span>//</span><span>ORDERS GO STRAIGHT TO OUR TELEGRAM — REPLY IN MINUTES &amp; BALLS IN STOCK</span><span>//</span><span>WORLDWIDE DELIVERY</span><span>//</span></div>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header id="nav">
+  <div class="wrap nav-in">
+    <a href="index.html" class="logo" aria-label="APEX FC — home">PYRAMID<sup>®</sup></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="shop.html">SHOP</a>
+      <a href="club.html">CLUB JERSEYS</a>
+      <a href="philosophy.html">WHY US</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="menuBtn" aria-label="Menu"><i data-lucide="menu"></i></button>
+      <button class="icon-btn" id="cartBtn" aria-label="Open cart">
+        <i data-lucide="shopping-bag"></i>
+        <span class="cart-count hidden" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu">
+    <a href="shop.html">SHOP</a>
+    <a href="club.html">CLUB JERSEYS</a>
+    <a href="philosophy.html">WHY US</a>
+    <a class="tg-link" href="#" target="_blank" rel="noopener">TELEGRAM — FAST REPLY</a>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section id="hero">
+  <span class="side-label">KICKOFF — EVERY SATURDAY · 10:00</span>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span>SEASON 26/27 — NEW KITS LIVE</p>
+      <h1 class="hero-title">
+        <span class="mask"><span style="animation-delay:.05s">BUILT FOR</span></span>
+        <span class="mask"><span class="flare-word" style="animation-delay:.17s">MATCHDAY</span></span>
+        <span class="mask"><span class="outline" style="animation-delay:.29s">GLORY.</span></span>
+      </h1>
+      <p class="hero-sub">Official-grade shirts, boots and gear. Pick your size, send your order on Telegram, and a real person confirms stock and delivery within minutes. No queues, no forms, no fuss.</p>
+      <div class="hero-ctas">
+        <a class="btn" href="shop.html">SHOP THE SEASON <i data-lucide="arrow-right"></i></a>
+        <a class="btn ghost" href="philosophy.html">WHY US</a>
+      </div>
+      <p class="hero-proof">SHIPS WORLDWIDE &nbsp;·&nbsp; 12,000+ ORDERS &nbsp;·&nbsp; REPLY IN MINUTES</p>
+    </div>
+    <div class="hero-visual" id="heroVisual">
+      <div class="flare-block"></div>
+      <div class="hero-img">
+        <img src="img/pyramid_logo.JPG" alt="Player in the 26/27 home kit under floodlights">
+      </div>
+      <div class="badge-spin" aria-hidden="true">
+        <svg class="ring" viewBox="0 0 100 100">
+          <defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs>
+          <text><textPath href="#circ">PYRAMID · BY SHADA FC · BUILT FOR MATCHDAY · EST. 2019 ·</textPath></text>
+        </svg>
+        <span class="bi"><i data-lucide="zap"></i></span>
+      </div>
+      <button class="hero-mini" id="heroMini" aria-label="Quick view: Home Shirt 25/26, $79">
+        <img src="img/sfc_match_black.JPG" alt="">
+        <span class="hm-txt">
+          <span class="hm-cat mono">NEW · JERSEYS</span>
+          <span class="hm-name">Home Shirt 26/27</span>
+          <span class="hm-price mono">$79</span>
+        </span>
+        <span class="hm-add"><i data-lucide="plus"></i></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FLARE MARQUEE ============ -->
+<div class="flare-marq" aria-hidden="true">
+  <div class="mtrack">
+    <div class="mseg"><span>NEW SEASON 26/27</span><span>//</span><span>KITS · BOOTS · BALLS</span><span>//</span><span>ORDER VIA TELEGRAM</span><span>//</span><span>BUILT FOR MATCHDAY</span><span>//</span></div>
+    <div class="mseg"><span>NEW SEASON 26/27</span><span>//</span><span>KITS · BOOTS · BALLS</span><span>//</span><span>ORDER VIA TELEGRAM</span><span>//</span><span>BUILT FOR MATCHDAY</span><span>//</span></div>
+  </div>
+</div>
+
+<!-- ============ SHOP ============ -->
+<section id="shop">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="dot"></span>THE LINEUP — SEASON 26/27</p>
+      <div class="sec-title-row">
+        <h2 class="sec-title">KITS, BOOTS<br><em class="outline">&amp; BALLS</em></h2>
+        <div class="filters" id="filters" role="tablist" aria-label="Filter products"></div>
+      </div>
+    </div>
+    <div class="pgrid" id="pgrid"></div>
+  </div>
+</section>
+
+<!-- ============ DROP (dark) ============ -->
+<section id="drop">
+  <div class="wrap drop-grid">
+    <div data-reveal>
+      <p class="eyebrow on-dark"><span class="dot"></span>LIMITED RELEASE</p>
+      <h2 class="drop-title">JACKET<br><span class="n04">— 26/27</span></h2>
+      <p class="drop-copy">A limited run of 300 shirts. Moisture-mapped AeroPoly knit, stitched crest, heat-pressed numbers — the same spec the squad wears on the road. When they're gone, they're gone.</p>
+      <div class="countdown" aria-label="Countdown to next drop">
+        <div class="cd-cell"><div class="cd-num" id="cdD">00</div><div class="cd-lbl">DAYS</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-cell"><div class="cd-num" id="cdH">00</div><div class="cd-lbl">HOURS</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-cell"><div class="cd-num" id="cdM">00</div><div class="cd-lbl">MIN</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-cell"><div class="cd-num" id="cdS">00</div><div class="cd-lbl">SEC</div></div>
+      </div>
+      <p class="cd-note">NEXT DROP — SATURDAY · 10:00 · TELEGRAM LIST GETS IT FIRST</p>
+      <div class="drop-ctas">
+        <button class="btn paperish" id="dropAdd">GET THE JACKET <i data-lucide="shopping-bag"></i></button>
+        <a class="btn ghost-p" href="#shop">BROWSE FULL LINEUP</a>
+      </div>
+    </div>
+    <div class="drop-visual" data-reveal>
+      <div class="drop-img">
+        <img src="img/sfc_jacket1.JPG" alt="Away kit 25/26 on the tunnel steps">
+      </div>
+      <div class="stamp">LIMITED<br>300 SHIRTS</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHILOSOPHY ============ -->
+<section id="philosophy">
+  <div class="wrap">
+    <div class="phil-grid">
+      <div class="phil-left" data-reveal>
+        <p class="eyebrow"><span class="dot"></span>WHY US</p>
+        <h2 class="sec-title" style="margin-top:16px">MADE FOR<br>THE<br><em class="outline">PITCH.</em></h2>
+        <p>PYRAMID started as a Sport Store under SHADA FC that we made our own — and now we sell it the same way we'd want to buy it: fast, human and honest.</p>
+      </div>
+      <div>
+        <div class="pitem" data-reveal>
+          <span class="pi-n">01</span>
+          <div><h3>Worn before it ships</h3><p>Every shirt and boot logs 200+ hours with academy before launch — rain, mud, turf and tarmac. If it fails, it never reaches the shop.</p></div>
+        </div>
+        <div class="pitem" data-reveal>
+          <span class="pi-n">02</span>
+          <div><h3>Official-grade materials</h3><p>AeroPoly knits, stitched crests, FG-stud outsoles, FIFA Quality match balls. The spec sheet is the marketing — we don't need adjectives when we have materials.</p></div>
+        </div>
+        <div class="pitem" data-reveal>
+          <span class="pi-n">03</span>
+          <div><h3>Talk to a human</h3><p>Your order lands directly in our Telegram. A real person confirms size, stock and delivery in minutes — and payment is arranged in chat, whatever works for you.</p></div>
+        </div>
+      </div>
+    </div>
+    <figure class="phil-photo" data-reveal>
+      <img src="img/pyramid_logo.JPG" alt="Sunday league match at dawn">
+      <figcaption>MATCHDAY 14 — AWAY END, 07:30</figcaption>
+    </figure>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div id="footer-newsletter" data-reveal>
+        <p class="eyebrow on-dark"><span class="dot"></span>THE SQUAD LIST</p>
+        <h2>DROPS HIT<br>DIFFERENT FIRST.</h2>
+        <p class="lead">Limited kits sell out fast. Join the list and get every drop 24 hours early — one email per drop, nothing else.</p>
+        <form class="nl-form" id="nlForm" novalidate>
+          <input type="email" id="nlEmail" placeholder="you@email.com" aria-label="Email address" autocomplete="email">
+          <button class="btn paperish" type="submit">JOIN THE LIST</button>
+        </form>
+        <p class="nl-err" id="nlErr">Enter a valid email address.</p>
+      </div>
+      <nav class="foot-links" data-reveal aria-label="Footer">
+        <a href="#shop">SHOP THE LINEUP <i data-lucide="arrow-right"></i></a>
+        <a href="#drop">AWAY KIT 25/26 <i data-lucide="arrow-right"></i></a>
+        <a href="#philosophy">WHY US <i data-lucide="arrow-right"></i></a>
+        <a class="tg-link" href="#" target="_blank" rel="noopener">TELEGRAM — FAST REPLY <i data-lucide="send"></i></a>
+        <button type="button" id="footCartBtn">YOUR CART <i data-lucide="shopping-bag"></i></button>
+        <button type="button" id="toTopBtn">BACK TO TOP <i data-lucide="arrow-right"></i></button>
+      </nav>
+    </div>
+    <div class="how-row">
+      <div class="how-steps" aria-label="How to order">
+        <span class="how-mini"><i data-lucide="shopping-bag"></i><b>01</b> ADD TO CART</span>
+        <span class="how-mini"><i data-lucide="clipboard-list"></i><b>02</b> FILL YOUR DETAILS</span>
+        <span class="how-mini"><i data-lucide="send"></i><b>03</b> SEND ON TELEGRAM</span>
+      </div>
+      <p class="secure-note"><i data-lucide="message-circle"></i>NO CARD NEEDED — STOCK, DELIVERY &amp; PAYMENT ARRANGED IN CHAT</p>
+    </div>
+    <div class="foot-word" aria-hidden="true">PYRAMID<span>®</span></div>
+    <div class="foot-bottom">
+      <span>© 2025 PYRAMID BY SHADA FC — FOOTBALL STORE</span>
+      <span>ORDERS VIA TELEGRAM</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ CART DRAWER ============ -->
+<div id="drawerBackdrop"></div>
+<aside id="cartDrawer" aria-label="Shopping cart">
+  <div class="dw-head">
+    <h3 id="dwTitle">YOUR CART <span id="dwCount">(0)</span></h3>
+    <button class="icon-btn" id="btnCloseDrawer" aria-label="Close cart"><i data-lucide="x"></i></button>
+  </div>
+
+  <!-- VIEW 1 — CART ITEMS -->
+  <div class="dw-view on" id="viewCart">
+    <div class="ship-box">
+      <p class="ship-msg" id="shipMsg"></p>
+      <div class="ship-track"><div class="ship-fill" id="shipFill"></div></div>
+    </div>
+    <div id="cartList"></div>
+    <div class="dw-foot" id="cartFoot">
+      <div class="dw-sub"><span>SUBTOTAL</span><b id="dwSubtotal">$0.00</b></div>
+      <button class="btn" id="btnToForm" style="justify-content:center">NEXT — YOUR DETAILS <i data-lucide="arrow-right"></i></button>
+      <p class="dw-note">NO ONLINE PAYMENT — WE CONFIRM STOCK, DELIVERY AND PAYMENT IN TELEGRAM CHAT</p>
+    </div>
+  </div>
+
+  <!-- VIEW 2 — ORDER FORM -->
+  <div class="dw-view" id="viewForm">
+    <div class="form-scroll">
+      <button class="form-back" id="btnEditCart" type="button"><i data-lucide="arrow-left"></i>BACK TO CART</button>
+      <div class="form-sum">
+        <span id="formSumItems">0 ITEMS</span>
+        <b id="formSumTotal">$0.00</b>
+      </div>
+      <h4 class="form-title">Your details</h4>
+      <div class="field"><label for="oName">FULL NAME *</label><input id="oName" autocomplete="name" placeholder="e.g. Daniel Costa"><span class="err-msg"></span></div>
+      <div class="field"><label for="oPhone">PHONE / WHATSAPP *</label><input id="oPhone" inputmode="tel" autocomplete="tel" placeholder="+1 555 010 2030"><span class="err-msg"></span></div>
+      <div class="field"><label for="oEmail">EMAIL (OPTIONAL)</label><input id="oEmail" type="email" autocomplete="email" placeholder="you@email.com"><span class="err-msg"></span></div>
+      <div class="field"><label for="oCity">CITY *</label><input id="oCity" autocomplete="address-level2"><span class="err-msg"></span></div>
+      <div class="field"><label for="oAddr">DELIVERY ADDRESS *</label><input id="oAddr" autocomplete="street-address" placeholder="Street, number, landmark…"><span class="err-msg"></span></div>
+      <div class="field"><label for="oNote">ORDER NOTE (OPTIONAL)</label><textarea id="oNote" rows="2" placeholder="Size swap, delivery time, anything…"></textarea><span class="err-msg"></span></div>
+    </div>
+    <div class="dw-foot">
+      <button class="btn" id="btnSendOrder" type="button" style="justify-content:center"><i data-lucide="send"></i>SEND ORDER VIA TELEGRAM</button>
+      <p class="dw-note">TELEGRAM OPENS WITH YOUR ORDER ALREADY WRITTEN — JUST PRESS SEND THERE</p>
+    </div>
+  </div>
+
+  <!-- VIEW 3 — DONE -->
+  <div class="dw-view" id="viewDone">
+    <div class="done-in">
+      <svg class="checkring" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46"/><path d="M30 52 l14 14 l27 -30"/></svg>
+      <h3 id="doneTitle">TELEGRAM IS OPEN</h3>
+      <p class="done-sub" id="doneSub"></p>
+      <div class="done-no" id="doneNo">FC-000000</div>
+      <a class="btn" id="btnReopen" href="#" target="_blank" rel="noopener">OPEN TELEGRAM AGAIN <i data-lucide="send"></i></a>
+      <button class="btn ghost" id="btnDoneClose" type="button">BACK TO SHOP</button>
+    </div>
+  </div>
+</aside>
+
+<!-- ============ QUICK VIEW ============ -->
+<div id="qvBackdrop">
+  <div id="quickView" role="dialog" aria-modal="true">
+    <div class="qv-img"><img id="qvImg" src="" alt=""></div>
+    <div class="qv-body">
+      <button class="qv-close" id="qvClose" aria-label="Close quick view"><i data-lucide="x"></i></button>
+      <p class="eyebrow"><span class="dot"></span><span id="qvCat"></span></p>
+      <h3 id="qvName"></h3>
+      <div class="qv-price mono" id="qvPrice"></div>
+      <p class="qv-desc" id="qvDesc"></p>
+      <div>
+        <div class="qv-lbl" style="margin-bottom:9px"><span>SELECT SIZE</span><button type="button" id="qvSizeGuide">SIZE GUIDE</button></div>
+        <div class="qv-sizes" id="qvSizes"></div>
+        <p class="qv-err" id="qvErr">Select a size first.</p>
+      </div>
+      <div class="qv-row">
+        <div class="qv-qty">
+          <button id="qvDec" aria-label="Decrease quantity"><i data-lucide="minus"></i></button>
+          <span id="qvQtyVal">1</span>
+          <button id="qvInc" aria-label="Increase quantity"><i data-lucide="plus"></i></button>
+        </div>
+        <button class="btn" id="qvAdd" type="button">ADD TO CART <i data-lucide="shopping-bag"></i></button>
+      </div>
+      <div class="qv-meta">
+        <span><i data-lucide="truck"></i>FREE OVER $120</span>
+        <span><i data-lucide="rotate-ccw"></i>30-DAY RETURNS</span>
+        <span><i data-lucide="send"></i>ORDER VIA TELEGRAM</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toasts" aria-live="polite"></div>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>
+/* ############################################################
+   ############################################################
+   EVERYTHING YOU NEED TO EDIT IS IN SECTIONS 1 · 2 · 3 BELOW.
+   You normally NEVER touch the code after section 3.
+   ############################################################
+   ############################################################ */
+
+/* ============================================================
+   1) STORE SETTINGS  ⚙️
+   Simple shop options. Change the numbers if you want.
+   ============================================================ */
+const CONFIG = {
+  storeName   : 'PYRAMID BY SHADA FC',   // shown on the order message
+  currency    : '$',         // currency sign: $ / € / £ ...
+  freeShipOver: 120,         // orders over this amount = FREE shipping
+  shipCost    : 12,          // flat shipping cost under that amount
+};
+
+/* ============================================================
+   2) TELEGRAM — WHERE ORDERS ARE SENT  📨
+   ------------------------------------------------------------
+   EASY MODE (recommended):
+     1. Write your Telegram username below (WITHOUT the @).
+     2. Done. When a customer presses "SEND ORDER VIA TELEGRAM",
+        Telegram opens with the full order pre-typed — the
+        customer just presses SEND and you receive it.
+
+   AUTO MODE (optional, zero taps for the customer):
+     The order is delivered to you automatically by a bot.
+     1. In Telegram, open @BotFather -> send /newbot -> copy the
+        TOKEN it gives you, paste it below.
+     2. Open @userinfobot -> it shows your chat ID, paste below.
+     3. IMPORTANT: open your bot once and press START
+        (a bot can only message people who started it first).
+     If both fields are filled, AUTO MODE is used automatically.
+     Note: the token is visible in the page code, so only use a
+     bot made just for receiving orders.
+   ============================================================ */
+const TELEGRAM = {
+  sellerUsername : 'vireaksatyadeth',  // <-- PUT YOUR TELEGRAM USERNAME HERE (no @)
+  botToken       : '8751304376:AAHhLTLnai7QPla__codfR-XyFADpY-Lq7E',              // optional, for AUTO MODE
+  chatId         : '',              // optional, for AUTO MODE
+};
+
+/* ============================================================
+   3) ★★★ YOUR PRODUCTS — ADD / EDIT / REMOVE HERE ★★★
+   ------------------------------------------------------------
+   HOW TO ADD A NEW PRODUCT:
+     1. Copy one whole block:  { ... },
+     2. Paste it under the last block (keep the comma).
+     3. Change the values. The shop grid updates by itself.
+
+   HOW TO CHANGE THE PHOTO:
+     - Easiest: put your photo file in the SAME FOLDER as this
+       HTML file and write its name, e.g.  img: 'boots.jpg'
+     - Or use any image link (upload to imgbb.com or imgur,
+       right-click the photo -> "Copy image address" -> paste).
+
+   RULES (simple):
+     - id    : must be DIFFERENT for every product (p1, p2, p3…)
+     - cat   : must be EXACTLY one of the categories in the list
+               on the next lines (Jerseys / Boots / Balls / Equipment)
+     - price : a plain number. No currency sign.
+     - sizes : a list in [ brackets ], comma separated.
+     - tag   : the small orange sticker on the photo. Use '' for none.
+     - featured: true = WIDE tile. Keep maximum 2 products with true.
+   ============================================================ */
+const PRODUCTS = [
+
+  { id:'p1',
+    name:'Home Shirt 26/27',
+    cat:'Jerseys',
+    price:79,
+    img:'img/sfc_match_black.JPG',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'NEW',
+    featured:true,
+    desc:'The 25/26 home shirt in official-grade AeroPoly knit. Stitched crest, breathable back panel, heat-pressed badge. The one the end expects you to wear.' },
+
+  { id:'p2',
+    name:'SHADA JACKET 26/27',
+    cat:'Jerseys',
+    price:85,
+    img:'img/sfc_jacket2.JPG',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'LIMITED',
+    featured:false,
+    desc:'The limited away kit — 300 pieces only. Moisture-mapped knit, stitched crest, engineered away stripes. When it sells out, it never returns.' },
+
+  { id:'p3',
+    name:'SHADA Training Kit',
+    cat:'Jerseys',
+    price:79,
+    img:'img/sfc_white_training.JPG',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'',
+    featured:false,
+    desc:'Training white jersey with reflective seam piping. AeroPoly knit, dropped hem, built for floodlights and night training.' },
+
+  { id:'p4',
+    name:'Gray Match',
+    cat:'Jerseys',
+    price:59.75,
+    img:'img/sfc_gray.JPG',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'PRO',
+    featured:true,
+    desc:'Training white jersey with reflective seam piping. AeroPoly knit, dropped hem, built for floodlights and night training.' },
+
+  { id:'p5',
+    name:'SHADA GRAY Training',
+    cat:'Jerseys',
+    price:99,
+    img:'img/sfc_leat_gray.JPG',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'',
+    featured:false,
+    desc:'Turf-specific outsole with 40 low studs for grip on artificial ground. Padded collar, wide-fit last, zero break-in time.' },
+
+  { id:'p6',
+    name:'SFC MANAGEMENT (FAN VERSION)',
+    cat:'Jerseys',
+    price:89,
+    img:'img/sfc_management.JPG',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'FAN',
+    featured:false,
+    desc:'Indoor court boot with a gum rubber outsole and injected control pod on the instep. Close-touch forefoot for tight futsal spaces.' },
+
+  { id:'p7',
+    name:'SFC COACH (GREEN)',
+    cat:'Jerseys',
+    price:59,
+    img:'img/coach_green.JPG',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'FAN',
+    featured:false,
+    desc:'Thermally bonded 12-panel match ball, FIFA Quality tested. True flight seams, butyl bladder — holds pressure for weeks.' },
+
+  { id:'p8',
+    name:'SFC COACH',
+    cat:'Jerseys',
+    price:59,
+    img:'img/coach_sea.JPG',
+    sizes:['S','M','L','XL','XXL'],
+    tag:'FAN',
+    featured:false,
+    desc:'Machine-stitched size-5 training ball with a textured TPU cover. Takes cone drills, walls and 200-touch sessions all season.' },
+
+  { id:'p9',
+    name:'Keeper Gloves Contact Pro',
+    cat:'Equipment',
+    price:54,
+    img:'img/keeper-glove4.jpg',
+    sizes:['8','9','10','11'],
+    tag:'PRO',
+    featured:false,
+    desc:'4mm German latex palm on a negative cut. Wrap-around thumb, punch zone on the backhand — grip that survives wet matchdays.' },
+
+  { id:'p10',
+    name:'Keeper Gloves KOBO',
+    cat:'Equipment',
+    price:82,
+    img:'img/keeper-glove3.jpg',
+    sizes:['8','9','10','11'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'4mm German latex palm on a negative cut. Wrap-around thumb, punch zone on the backhand — grip that survives wet matchdays.' },
+
+  { id:'p11',
+    name:'Keeper Gloves KOBO (Yellow)',
+    cat:'Equipment',
+    price:82,
+    img:'img/keeper-glove2.jpg',
+    sizes:['8','9','10','11'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'4mm German latex palm on a negative cut. Wrap-around thumb, punch zone on the backhand — grip that survives wet matchdays.' },
+
+  { id:'p12',
+    name:'Keeper Gloves KOBO GKG7',
+    cat:'Equipment',
+    price:82,
+    img:'img/keeper-glove5.jpg',
+    sizes:['8','9','10','11'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'4mm German latex palm on a negative cut. Wrap-around thumb, punch zone on the backhand — grip that survives wet matchdays.' },
+  
+  { id:'p13',
+    name:'Keeper Gloves KOBO GKG9',
+    cat:'Equipment',
+    price:82,
+    img:'img/keeper-gloves1.jpg',
+    sizes:['8','9','10','11'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'4mm German latex palm on a negative cut. Wrap-around thumb, punch zone on the backhand — grip that survives wet matchdays.' },
+  
+  { id:'p14',
+    name:'Keeper Gloves KOBO (Yellow)',
+    cat:'Equipment',
+    price:82,
+    img:'img/keeper-glove6.jpg',
+    sizes:['8','9','10','11'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'4mm German latex palm on a negative cut. Wrap-around thumb, punch zone on the backhand — grip that survives wet matchdays.' },
+
+  { id:'p15',
+    name:'ADIDAS WORLDCUP LEAGUE UAE',
+    cat:'Balls',
+    price:182,
+    img:'img/adidas_wc_lg.jpg',
+    sizes:['ONE SIZES'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Pyramid is Egypts largest and most trusted floorball store, with thousands of happy customers' },
+
+  { id:'p16',
+    name:'Superliga Ball',
+    cat:'Balls',
+    price:152,
+    img:'img/superliga_ball.jpg',
+    sizes:['ONE SIZES'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Pyramid is Egypts largest and most trusted floorball store, with thousands of happy customers' },
+
+  { id:'p17',
+    name:'Fifa Molten Origin',
+    cat:'Balls',
+    price:132,
+    img:'img/Molten_fifa.jpg',
+    sizes:['ONE SIZES'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Pyramid is Egypts largest and most trusted floorball store, with thousands of happy customers' },
+
+  { id:'p18',
+    name:'Europa Molten',
+    cat:'Balls',
+    price:152,
+    img:'img/Europa_molten.jpg',
+    sizes:['ONE SIZES'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Pyramid is Egypts largest and most trusted floorball store, with thousands of happy customers' },
+
+  { id:'p19',
+    name:'Nike Air',
+    cat:'Boots',
+    price:152,
+    img:'img/Nike_air.jpg',
+    sizes:['41','42','43'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Boot Professional Firm Ground Soccer Cleats – High-Performance Football Boots' },
+
+  { id:'p20',
+    name:'Precision Firm Ground Velcro',
+    cat:'Boots',
+    price:174,
+    img:'img/Precision_firm_velcro.jpg',
+    sizes:['41','42','43'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Boot Professional Firm Ground Soccer Cleats – High-Performance Football Boots' },
+
+  { id:'p21',
+    name:'Puma Pro Keeper Line',
+    cat:'Boots',
+    price:113,
+    img:'img/puma-pro.jpg',
+    sizes:['41','42','43'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Boot Professional Firm Ground Soccer Cleats – High-Performance Football Boots' },
+  
+  { id:'p22',
+    name:'Nike Mercurial Fastest',
+    cat:'Boots',
+    price:134,
+    img:'img/Nike-mercurial.jpg',
+    sizes:['41','42','43'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Boot Professional Firm Ground Soccer Cleats – High-Performance Football Boots' },
+
+  { id:'p23',
+    name:'Nike Air Zoom Mercurial Pro Vapor 16',
+    cat:'Boots',
+    price:134,
+    img:'img/nike-zoom-mercurial-pro-vapor-16.jpg',
+    sizes:['41','42','43'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Boot Professional Firm Ground Soccer Cleats – High-Performance Football Boots' },
+
+  { id:'p24',
+    name:'Precision Football Pump',
+    cat:'Equipment',
+    price:14,
+    img:'img/Precision-pump.jpg',
+    sizes:['41','42','43'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Precision Pump professional pump brand - most uses within big club' },
+
+  { id:'p25',
+    name:'Football Plate Cone',
+    cat:'Equipment',
+    price:25,
+    img:'img/fbt-plate-cone.jpg',
+    sizes:['15psc'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Precision plate cone professional cone brand - most uses within big club' },
+
+  { id:'p26',
+    name:'Pro FK Mannequins',
+    cat:'Equipment',
+    price:44,
+    img:'img/pro-fk-mannequins.jpg',
+    sizes:['1psc','2psc'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Professional FK Mannequins brand - most uses within big club' },
+
+  { id:'p27',
+    name:'Pro Foza Trainning Ladder',
+    cat:'Equipment',
+    price:34,
+    img:'img/forza_speed_agility_training_ladder_con_fig_main_2.jpg',
+    sizes:['1psc','2psc'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Professional Forza brand speed and agility training ladder - most uses within big club' },
+
+  { id:'p28',
+    name:'Nike Academy Bag',
+    cat:'Equipment',
+    price:69,
+    img:'img/nike-academy-bag.jpg',
+    sizes:['1psc','2psc'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Professional Forza brand speed and agility training ladder - most uses within big club' },
+
+  { id:'p28',
+    name:'Nike Academy Bag',
+    cat:'Equipment',
+    price:69,
+    img:'img/nike-academy-bag.jpg',
+    sizes:['1psc','2psc'],
+    tag:'RESTOCKED',
+    featured:false,
+    desc:'Professional Forza brand speed and agility training ladder - most uses within big club' },
+];
+
+/* ============================================================
+   4) THE CATEGORIES (filters above the product grid)
+   If you rename a category here, use the SAME word in your
+   products' 'cat' field.
+   ============================================================ */
+const CATEGORIES = ['All','Jerseys','Boots','Balls','Equipment'];
+
+/* ############################################################
+   ###  EVERYTHING BELOW RUNS THE SHOP — NO NEED TO EDIT  #####
+   ############################################################ */
+
+/* ---------- small helpers ---------- */
+const $  = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const byId = id => PRODUCTS.find(p => p.id === id);
+const money = n => CONFIG.currency + n.toFixed(2);
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+function icons(){ if(window.lucide) lucide.createIcons(); }
+
+/* ---------- cart state (saved in the browser) ---------- */
+let cart = [];
+try{ cart = JSON.parse(localStorage.getItem('apexfc_cart')||'[]').filter(i => byId(i.id)); }catch(e){ cart = []; }
+
+const persist   = () => localStorage.setItem('apexfc_cart', JSON.stringify(cart));
+const cartCount = () => cart.reduce((n,i) => n + i.qty, 0);
+function totals(){
+  const sub  = cart.reduce((n,i) => n + byId(i.id).price * i.qty, 0);
+  const ship = !cart.length ? 0 : (sub >= CONFIG.freeShipOver ? 0 : CONFIG.shipCost);
+  return { sub, ship, total: sub + ship };
+}
+function lockScroll(on){ document.body.classList.toggle('no-scroll', on); }
+function toast(msg, opts = {}){
+  const box = $('#toasts');
+  const t = document.createElement('div');
+  t.className = 'toast';
+  t.innerHTML = `<span class="t-ic"><i data-lucide="${opts.icon||'check'}"></i></span><span>${msg}</span>`;
+  box.appendChild(t); icons();
+  if(box.children.length > 3) box.firstChild.remove();
+  setTimeout(() => { t.classList.add('out'); setTimeout(() => t.remove(), 300); }, 3600);
+}
+
+/* ============================================================
+   PRODUCT GRID + FILTERS (built automatically from PRODUCTS)
+============================================================ */
+function renderFilters(){
+  $('#filters').innerHTML = CATEGORIES.map(c => {
+    const n = c === 'All' ? PRODUCTS.length : PRODUCTS.filter(p => p.cat === c).length;
+    return `<button class="fbtn ${c===activeFilter?'active':''}" data-f="${c}">${c.toUpperCase()}<sup>${n}</sup></button>`;
+  }).join('');
+  $$('#filters .fbtn').forEach(b => b.addEventListener('click', () => {
+    activeFilter = b.dataset.f; renderFilters(); renderGrid();
+  }));
+}
+let activeFilter = 'All';
+
+function renderGrid(){
+  const list = activeFilter === 'All' ? PRODUCTS : PRODUCTS.filter(p => p.cat === activeFilter);
+  $('#pgrid').innerHTML = list.map((p, i) => `
+    <article class="pcard ${p.featured?'featured':''}" data-id="${p.id}" style="--d:${i*45}ms">
+      <div class="pimg">
+        <img src="${p.img}" alt="${p.name}" loading="lazy">
+        ${p.tag ? `<span class="ptag">${p.tag}</span>` : ''}
+        <button class="qadd" data-add="${p.id}"><i data-lucide="plus"></i>QUICK ADD</button>
+      </div>
+      <div class="pinfo">
+        <div class="pmeta"><span>${String(i+1).padStart(2,'0')}</span><span>${p.cat.toUpperCase()}</span></div>
+        <h3>${p.name}</h3>
+        <div class="pprice">${money(p.price)}</div>
+      </div>
+    </article>`).join('');
+  icons();
+  $$('#pgrid .pcard').forEach(c => c.addEventListener('click', e => {
+    if(e.target.closest('.qadd')) return;
+    openQV(byId(c.dataset.id));
+  }));
+  $$('#pgrid .qadd').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation(); openQV(byId(b.dataset.add));
+  }));
+}
+
+/* ============================================================
+   QUICK VIEW (click a product -> choose size -> add)
+============================================================ */
+const qv = { p:null, size:null, qty:1 };
+
+function openQV(p){
+  qv.p = p; qv.qty = 1;
+  qv.size = p.sizes.length === 1 ? p.sizes[0] : null;
+  $('#qvImg').src = p.img; $('#qvImg').alt = p.name;
+  $('#qvCat').textContent  = p.cat.toUpperCase() + ' — SEASON 25/26';
+  $('#qvName').textContent = p.name;
+  $('#qvPrice').textContent = money(p.price);
+  $('#qvDesc').textContent  = p.desc;
+  $('#qvQtyVal').textContent = '1';
+  $('#qvErr').classList.remove('show'); $('#qvSizes').classList.remove('error');
+  $('#qvSizes').innerHTML = p.sizes.map(s =>
+    `<button class="sz ${s===qv.size?'active':''}" data-size="${s}">${s}</button>`).join('');
+  $$('#qvSizes .sz').forEach(b => b.addEventListener('click', () => {
+    qv.size = b.dataset.size;
+    $$('#qvSizes .sz').forEach(x => x.classList.toggle('active', x===b));
+    $('#qvErr').classList.remove('show'); $('#qvSizes').classList.remove('error');
+  }));
+  $('#qvBackdrop').classList.add('open'); lockScroll(true); icons();
+  $('#qvClose').focus();
+}
+function closeQV(){
+  $('#qvBackdrop').classList.remove('open');
+  if(!$('#cartDrawer').classList.contains('open')) lockScroll(false);
+}
+ $('#qvClose').addEventListener('click', closeQV);
+ $('#qvBackdrop').addEventListener('click', e => { if(e.target.id === 'qvBackdrop') closeQV(); });
+ $('#qvInc').addEventListener('click', () => { qv.qty = Math.min(10, qv.qty+1); $('#qvQtyVal').textContent = qv.qty; });
+ $('#qvDec').addEventListener('click', () => { qv.qty = Math.max(1,  qv.qty-1); $('#qvQtyVal').textContent = qv.qty; });
+ $('#qvSizeGuide').addEventListener('click', () =>
+  toast('Shirts: true to size. Boots: between sizes? Go half UP for wide feet.', {icon:'clipboard-list'}));
+
+ $('#qvAdd').addEventListener('click', () => {
+  if(!qv.size){ $('#qvErr').classList.add('show'); $('#qvSizes').classList.add('error'); return; }
+  addToCart(qv.p.id, qv.size, qv.qty);
+  flyToCart($('#qvAdd'), qv.p.img);
+  closeQV();
+  openDrawer();
+  toast(`${qv.p.name} ×${qv.qty} added to your cart`, {icon:'check'});
+});
+
+/* ============================================================
+   CART (add / remove / quantities)
+============================================================ */
+function addToCart(id, size, qty = 1){
+  const ex = cart.find(i => i.id === id && i.size === size);
+  if(ex) ex.qty = Math.min(10, ex.qty + qty);
+  else cart.push({ id, size, qty });
+  persist(); renderCart(); updateBadge();
+}
+function updateBadge(){
+  const n = cartCount(), el = $('#cartCount');
+  el.textContent = n; el.classList.toggle('hidden', n === 0);
+}
+function bumpBadge(){
+  const el = $('#cartCount');
+  el.classList.remove('bump'); void el.offsetWidth; el.classList.add('bump');
+}
+function flyToCart(fromEl, src){
+  const target = $('#cartBtn'); if(!fromEl || !target) return;
+  const a = fromEl.getBoundingClientRect(), b = target.getBoundingClientRect();
+  const g = document.createElement('div'); g.className = 'fly';
+  if(src) g.style.backgroundImage = `url(${src})`;
+  g.style.left = a.left + a.width/2 + 'px'; g.style.top = a.top + a.height/2 + 'px';
+  document.body.appendChild(g);
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    g.style.transform = `translate(${b.left+b.width/2-(a.left+a.width/2)}px,${b.top+b.height/2-(a.top+a.height/2)}px) scale(.15) rotate(25deg)`;
+    g.style.opacity = '.4';
+  }));
+  setTimeout(() => { g.remove(); bumpBadge(); }, 660);
+}
+
+function renderCart(){
+  const list = $('#cartList'), n = cartCount(), t = totals();
+  $('#dwCount').textContent = `(${n})`;
+  $('#dwSubtotal').textContent = money(t.sub);
+  $('#cartFoot').style.display = cart.length ? 'flex' : 'none';
+  /* free shipping progress */
+  $('#shipFill').style.width = Math.min(t.sub / CONFIG.freeShipOver * 100, 100) + '%';
+  $('#shipMsg').innerHTML = !cart.length
+    ? `FREE SHIPPING ON ORDERS OVER ${money(CONFIG.freeShipOver).replace('.00','')}`
+    : (t.sub >= CONFIG.freeShipOver
+        ? '<b>FREE SHIPPING UNLOCKED</b> — NICE.'
+        : `YOU'RE <b>${money(CONFIG.freeShipOver - t.sub)}</b> AWAY FROM FREE SHIPPING`);
+  /* items */
+  if(!cart.length){
+    list.innerHTML = `<div class="dw-empty"><i data-lucide="shopping-bag"></i>
+      <p>Your cart is empty.<br>The lineup is waiting.</p>
+      <button class="btn ghost" id="dwBrowse">BROWSE THE LINEUP</button></div>`;
+    icons();
+    $('#dwBrowse').addEventListener('click', () => {
+      closeDrawer(); document.getElementById('shop').scrollIntoView({behavior:'smooth'});
+    });
+  } else {
+    list.innerHTML = cart.map((it, i) => { const p = byId(it.id); return `
+      <div class="citem">
+        <div class="ci-img"><img src="${p.img}" alt="${p.name}"></div>
+        <div class="ci-body">
+          <div class="ci-top"><h4>${p.name}</h4>
+            <button class="ci-x" data-rm="${i}" aria-label="Remove ${p.name}"><i data-lucide="x"></i></button></div>
+          <div class="ci-meta">SIZE ${it.size} · ${money(p.price)} EACH</div>
+          <div class="ci-row">
+            <div class="qty">
+              <button data-dec="${i}" aria-label="Decrease"><i data-lucide="minus"></i></button>
+              <span>${it.qty}</span>
+              <button data-inc="${i}" aria-label="Increase"><i data-lucide="plus"></i></button>
+            </div>
+            <div class="ci-price">${money(p.price * it.qty)}</div>
+          </div>
+        </div>
+      </div>`; }).join('');
+  }
+  /* form summary numbers */
+  $('#formSumItems').textContent = `${n} ITEM${n===1?'':'S'}`;
+  $('#formSumTotal').textContent = money(t.total);
+  icons();
+}
+ $('#cartList').addEventListener('click', e => {
+  const inc = e.target.closest('[data-inc]'), dec = e.target.closest('[data-dec]'), rm = e.target.closest('[data-rm]');
+  if(inc){ cart[+inc.dataset.inc].qty = Math.min(10, cart[+inc.dataset.inc].qty + 1); }
+  else if(dec){ const i = +dec.dataset.dec; cart[i].qty--; if(cart[i].qty < 1) cart.splice(i, 1); }
+  else if(rm){ cart.splice(+rm.dataset.rm, 1); }
+  else return;
+  persist(); renderCart(); updateBadge();
+  if(!cart.length) showDrawerView('cart');
+});
+
+/* ============================================================
+   DRAWER VIEWS (cart / form / done)
+============================================================ */
+function showDrawerView(v){
+  $$('#cartDrawer .dw-view').forEach(x => x.classList.toggle('on', x.id === 'view' + v[0].toUpperCase() + v.slice(1)));
+  $('#dwTitle').innerHTML =
+    v === 'cart' ? `YOUR CART <span>(${cartCount()})</span>` :
+    v === 'form' ? 'ORDER DETAILS' : 'ORDER SENT';
+  icons();
+}
+function openDrawer(){
+  renderCart();
+  showDrawerView(cart.length ? 'cart' : 'cart');
+  $('#cartDrawer').classList.add('open'); $('#drawerBackdrop').classList.add('open');
+  lockScroll(true);
+}
+function closeDrawer(){
+  $('#cartDrawer').classList.remove('open'); $('#drawerBackdrop').classList.remove('open');
+  if(!$('#qvBackdrop').classList.contains('open')) lockScroll(false);
+}
+ $('#cartBtn').addEventListener('click', openDrawer);
+ $('#footCartBtn').addEventListener('click', openDrawer);
+ $('#btnCloseDrawer').addEventListener('click', closeDrawer);
+ $('#drawerBackdrop').addEventListener('click', closeDrawer);
+ $('#btnToForm').addEventListener('click', () => { if(cart.length) showDrawerView('form'); });
+ $('#btnEditCart').addEventListener('click', () => showDrawerView('cart'));
+ $('#btnDoneClose').addEventListener('click', () => { showDrawerView('cart'); closeDrawer(); });
+
+/* ============================================================
+   ORDER FORM VALIDATION
+============================================================ */
+function setErr(id, msg){
+  const f = document.getElementById(id).closest('.field');
+  f.classList.add('error'); f.querySelector('.err-msg').textContent = msg;
+}
+function clearErr(id){ document.getElementById(id).closest('.field').classList.remove('error'); }
+['oName','oPhone','oEmail','oCity','oAddr','oNote'].forEach(id => {
+  document.getElementById(id).addEventListener('input', () => clearErr(id));
+});
+
+/* ============================================================
+   BUILD THE ORDER MESSAGE + SEND TO TELEGRAM
+============================================================ */
+function buildOrderMessage(order){
+  const L = [];
+  L.push('⚽ NEW ORDER — ' + CONFIG.storeName);
+  L.push('Order: ' + order.no);
+  L.push('────────────────');
+  L.push('ITEMS:');
+  order.items.forEach(it =>
+    L.push(`• ${it.name} — size ${it.size} × ${it.qty} — ${money(it.price * it.qty)}`));
+  L.push('────────────────');
+  L.push('Subtotal: ' + money(order.sub));
+  L.push('Shipping: ' + (order.ship ? money(order.ship) : 'FREE'));
+  L.push('TOTAL: ' + money(order.total));
+  L.push('');
+  L.push('— CUSTOMER —');
+  L.push('Name: '    + order.cust.name);
+  L.push('Phone: '   + order.cust.phone);
+  if(order.cust.email) L.push('Email: ' + order.cust.email);
+  L.push('City: '    + order.cust.city);
+  L.push('Address: ' + order.cust.address);
+  if(order.cust.note) L.push('Note: ' + order.cust.note);
+  return L.join('\n');
+}
+
+async function sendToTelegram(order, msg){
+  const { sellerUsername, botToken, chatId } = TELEGRAM;
+
+  /* AUTO MODE — bot delivers the order with zero taps */
+  if(botToken && chatId){
+    try{
+      const r = await fetch('https://api.telegram.org/bot' + botToken + '/sendMessage', {
+        method : 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body   : JSON.stringify({ chat_id: chatId, text: msg })
+      });
+      if(r.ok) return { auto:true, url:'https://t.me/' + sellerUsername };
+    }catch(e){ /* network failed — fall through to easy mode */ }
+  }
+
+  /* EASY MODE — opens your chat with the order pre-typed */
+  const url = 'https://t.me/' + sellerUsername + '?text=' + encodeURIComponent(msg);
+  const win = window.open(url, '_blank');
+  return { auto:false, url, blocked: !win };
+}
+
+ $('#btnSendOrder').addEventListener('click', async () => {
+  if(!cart.length){ toast('Your cart is empty.', {icon:'shopping-bag'}); return; }
+
+  /* 1. validate the form */
+  let ok = true;
+  const v = (id, fn, msg) => { const el = document.getElementById(id);
+    if(!fn(el.value.trim())){ setErr(id, msg); ok = false; } else clearErr(id); };
+  v('oName', x => x.length > 1,  'Required');
+  v('oPhone', x => /^[+\d][\d\s\-()]{5,}$/.test(x), 'Enter a valid phone number');
+  v('oCity', x => x.length > 1,  'Required');
+  v('oAddr', x => x.length > 4,  'Enter your full address');
+  if(!ok){ toast('Please fix the highlighted fields.', {icon:'alert-circle'}); return; }
+
+  /* 2. build the order */
+  const t = totals();
+  const order = {
+    no    : 'FC-' + Math.random().toString(36).slice(2,7).toUpperCase(),
+    items : cart.map(i => { const p = byId(i.id);
+              return { name:p.name, size:i.size, qty:i.qty, price:p.price }; }),
+    sub   : t.sub, ship: t.ship, total: t.total,
+    cust  : {
+      name   : $('#oName').value.trim(),
+      phone  : $('#oPhone').value.trim(),
+      email  : $('#oEmail').value.trim(),
+      city   : $('#oCity').value.trim(),
+      address: $('#oAddr').value.trim(),
+      note   : $('#oNote').value.trim(),
+    }
+  };
+
+  /* 3. send it */
+  const res = await sendToTelegram(order, buildOrderMessage(order));
+
+  /* 4. finish — clear cart, show the done screen */
+  cart = []; persist(); updateBadge(); renderCart();
+  $('#doneNo').textContent = order.no;
+  $('#btnReopen').href = res.url;
+  if(res.auto){
+    $('#doneTitle').textContent = 'ORDER RECEIVED';
+    $('#doneSub').innerHTML = 'Your order was delivered to our Telegram automatically. We usually reply within minutes to confirm stock and delivery.';
+    $('#btnReopen').innerHTML = 'MESSAGE US ON TELEGRAM <i data-lucide="send"></i>';
+  } else {
+    $('#doneTitle').textContent = 'TELEGRAM IS OPEN';
+    $('#doneSub').innerHTML = 'Press <b>SEND</b> in the Telegram window so we actually receive your order — everything is already written for you.';
+    $('#btnReopen').innerHTML = 'OPEN TELEGRAM AGAIN <i data-lucide="send"></i>';
+    if(res.blocked) toast('Pop-up blocked — tap "OPEN TELEGRAM AGAIN" below.', {icon:'alert-triangle'});
+  }
+  showDrawerView('done');
+  toast(`Order ${order.no} — total ${money(t.total)}`, {icon:'package'});
+});
+
+/* ============================================================
+   NEWSLETTER + DROP COUNTDOWN + NAV + EXTRA
+============================================================ */
+ $('#nlForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const val = $('#nlEmail').value.trim();
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val)){ $('#nlErr').classList.add('show'); return; }
+  $('#nlErr').classList.remove('show'); $('#nlEmail').value = '';
+  toast("You're on the squad list — the next drop hits your inbox first.", {icon:'zap'});
+});
+ $('#toTopBtn').addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+
+/* countdown: always targets the NEXT Saturday 10:00 */
+function nextDrop(){
+  const now = new Date(), d = new Date(now); d.setHours(10,0,0,0);
+  let diff = (6 - d.getDay() + 7) % 7;          /* Saturday = 6 */
+  if(diff === 0 && d <= now) diff = 7;
+  d.setDate(d.getDate() + diff); return d;
+}
+const dropAt = nextDrop();
+setInterval(() => {
+  const s = Math.max(0, Math.floor((dropAt - new Date()) / 1000));
+  $('#cdD').textContent = String(Math.floor(s/86400)).padStart(2,'0');
+  $('#cdH').textContent = String(Math.floor(s/3600)%24).padStart(2,'0');
+  $('#cdM').textContent = String(Math.floor(s/60)%60).padStart(2,'0');
+  $('#cdS').textContent = String(s%60).padStart(2,'0');
+}, 1000);
+
+ $('#menuBtn').addEventListener('click', () => $('#mobileMenu').classList.toggle('open'));
+ $$('#mobileMenu a').forEach(a => a.addEventListener('click', () => $('#mobileMenu').classList.remove('open')));
+window.addEventListener('scroll', () => $('#nav').classList.toggle('scrolled', window.scrollY > 8));
+
+ $('#dropAdd').addEventListener('click', () => openQV(byId('p2')));
+ $('#heroMini').addEventListener('click', () => openQV(byId('p1')));
+
+/* hero mouse parallax (desktop only) */
+if(matchMedia('(pointer:fine)').matches){
+  const hero = $('#hero'), hv = $('#heroVisual');
+  hero.addEventListener('mousemove', e => {
+    const r = hero.getBoundingClientRect();
+    const x = (e.clientX - r.left)/r.width - .5, y = (e.clientY - r.top)/r.height - .5;
+    hv.style.transform = `translate(${x*12}px,${y*12}px)`;
+  });
+  hero.addEventListener('mouseleave', () => hv.style.transform = '');
+}
+
+/* scroll reveal */
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+}), {threshold:.12});
+ $$('[data-reveal]').forEach(el => io.observe(el));
+
+/* Escape closes the top layer */
+document.addEventListener('keydown', e => {
+  if(e.key !== 'Escape') return;
+  if($('#qvBackdrop').classList.contains('open')) return closeQV();
+  if($('#cartDrawer').classList.contains('open')) return closeDrawer();
+  $('#mobileMenu').classList.remove('open');
+});
+
+/* ============================================================
+   INIT — this runs once when the page loads
+============================================================ */
+ $$('.tg-link').forEach(a => a.href = 'https://t.me/' + TELEGRAM.sellerUsername);
+renderFilters();
+renderGrid();
+renderCart();
+updateBadge();
+icons();
+</script>
+</body>
+</html>
